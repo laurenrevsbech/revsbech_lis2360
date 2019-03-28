@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/* CSS Document created by Lauren Revsbech, Spring 2019*/
+
+body {
+	font-family: Courier, Geneva, Arial, Helvetica;
+	font-size: 12px;
+	line-height: 1.6em;
+	color: #EEEEEE;
+	background-color: #444444;
+	padding: 0 45px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #EEEEEE;
+	
+}
+h1 {
+	font-size: 30px;
+	padding: .5px 0;
+	font-variant: small-caps;
+	letter-spacing: .5em;
+	line-height: 1.5em;
+	text-align: center
+}
+h2 {
+	font-size: 18px;
+	padding: 6px;
+	font-variant: small-caps;
+	letter-spacing: 0.3em;
+	background-color: #2E5396;
+	text-align: center
+}
+h3 {
+	font-size: 16px;
+	letter-spacing: 0.3em;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	border-bottom-color: #2E5396;
+	padding: 4px 0;
+	font-variant: small-caps;
+	font-style: italic;
+	text-align: center
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #009900;
+	text-decoration: none;
+	
+}
+a:visited {
+	font-weight: bold;
+	color: #009900;
+	text-decoration: none;
+
+}
+a:hover {
+	color: #00cc00;
+	
+}
+
+/* list styles ----------------------------- */
+/* Don't have any lists */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 12px;
+}
+ol {
+	margin-left: 14px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #2E5396 2px;
+}
+td {
+	padding: 6px;
+	border: solid #2E5396 2px;
+	
+}
+th {
+	font-weight: bold;
+	background-color: #2E5396;
+	text-align: center;
+	padding: 4px;
+	border: solid #2E5396 2px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #2E5396 2px;
+}
+
+img {
+	border: solid #2E5396 3px;
+
+}
+
+iframe {
+	border: solid #2E5396 2px;
+	padding: 6px;
+	margin: 8px;
+}
+
