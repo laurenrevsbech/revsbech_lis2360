@@ -2,6 +2,8 @@
 /* CSS Document created by Lauren Revsbech, Spring 2019*/
 
 body {
+	margin: 0;
+	padding: 0;
 	font-family: Courier, Geneva, Arial, Helvetica;
 	font-size: 12px;
 	line-height: 1.6em;
@@ -18,7 +20,7 @@ p, li, td {
 }
 h1 {
 	font-size: 30px;
-	padding: .5px 0;
+	padding: 0;
 	font-variant: small-caps;
 	letter-spacing: .5em;
 	line-height: 1.5em;
@@ -47,13 +49,13 @@ h3 {
 /* link styles ---------------------------- */
 a:link {
 	font-weight: bold;
-	color: #009900;
+	color: #00aa00;
 	text-decoration: none;
 	
 }
 a:visited {
 	font-weight: bold;
-	color: #009900;
+	color: #00aa00;
 	text-decoration: none;
 
 }
@@ -85,7 +87,7 @@ th {
 	font-weight: bold;
 	background-color: #2E5396;
 	text-align: center;
-	padding: 4px;
+	padding: 2px;
 	border: solid #2E5396 2px;
 }
 
@@ -104,4 +106,67 @@ iframe {
 	padding: 6px;
 	margin: 8px;
 }
+/* Div styles for page layout */
+
+#container {
+	width: 950px;
+	margin: 0 auto;
+	padding: 10px 35px;
+	background-color: #666666;  
+	overflow: hidden;
+}
+
+#header {
+	width: 100%;
+	padding: 0;
+}
+
+#main-content {
+	width: 600px;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 20px;
+	float: left;
+}
+
+#author-content {
+	width: 710px;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 30px;
+	padding-left: 10px;
+	float: left;
+}
+
+#content {
+	width: 950px;
+	padding-top: 0;
+	padding-right: 20px;
+}
+
+#sidebar {
+	width: 300px;
+	float: left;
+	padding: 10px;
+	background: #444444;
+	margin-top: 15px;
+}
+
+#img-sidebar {
+	width: 200px;
+	float: left;
+	margin-top: 15px;
+}
+
+#sidebar p{
+	text-align: center;
+}
+
+#footer {
+	Width: 100%;
+	clear: both;
+	padding-top: 5px;
+}
+
+
 
