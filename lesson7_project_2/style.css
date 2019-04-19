@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document created by Lauren Revsbech, Spring 2019*/
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#splash{
+	background-color: #ffffff;
+	height: 1000px;
+}
+
+#overview{
+	background-color: #0a6a95;
+	height: 1000px;
+}
+
+#video{
+	background-color: #126716;
+	height: 1000px;
+}
+
+#table{
+	background-color: #005a7f;
+	height: 1000px;
+}
+
+#footer{
+	background-color: #021c26;
+	height: 1000px;
+}
+
+
+
+
