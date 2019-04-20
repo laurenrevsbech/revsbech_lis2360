@@ -4,7 +4,7 @@
 /* --------------------------- HTML TAG STYLES ----------------------------- */
 
 body {
-  margin: 0px; /* always zero out defaul browser margins and padding */
+  margin: 0px; 
   padding: 0px;
   color: #333;
   font-family: 'Share Tech Mono', monospace;
@@ -27,43 +27,42 @@ h3 {
   font-weight: bold;
 }
 table {
-	border: solid #4B9FFF 1px;
+	border: solid #1D83FF 1px;
 	border-collapse:collapse;
 }
 td {
 	padding: 6px;
-	border: solid #4B9FFF 2px;
+	border: solid #1D83FF 2px;
 }
 th {
 	font-weight: bold;
-	background-color: #4B9FFF;
+	background-color: #1D83FF;
 	text-align: center;
 	padding: 6px;
-	border: solid #4B9FFF 2px;
+	border: solid #1D83FF 2px;
 }
 a:link {
-	color: #4B9FFF;
+	color: #1D83FF;
 }
 a:visited {
-	color: #4B9FFFF;
+	color: #1D83FF;
 }
 a:hover {
-	color: #4578DF;
+	color: #3Da5FF;
 	text-decoration: none;
 }
 
 /* -------------------------- PAGE SECTIONS ---------------------------- */
-/* Visual sections of page are defined below in order of presentation */  
 
 #splash {
   background: url(images/hacker_use2.jpg) no-repeat center top fixed;
   background-size: cover;  
-	height: 1000px; /* dictates a taller section for title page allowing the background image to be seen */
+	height: 1000px; 
 	color: #eee;
 	
 }
 #overview {
-	padding: 40px 0 60px 0; /* top padding provides space for nav bar, bottom padding for asthetics */	
+	padding: 40px 0 60px 0; 	
   background-color: #2b4f63;
 	color: #eee;
 }
@@ -88,13 +87,12 @@ a:hover {
 }
 
 /* ---------------- CONTAINER STYLES ----------------- */
-/* Containers are used to keep the page content within bounds centered in the browser window. */
 .container {
-  width: 960px; /* static width container always stays at this width no matter what the window size */
+  width: 960px; 
   margin: 0 auto;
   overflow: hidden;
 }
-.half_container { /* provides a two column presentation */
+.half_container { 
   width: 50%;
   float: left;
   overflow: hidden;
@@ -103,7 +101,7 @@ a:hover {
 /* ----------------- NAVIGATION BAR STYLES -------------------*/ 
 
 #navbar{
-	position: fixed; /* navbar should always be shown even when page is scrolled */
+	position: fixed; 
 	top: 0;
 	width: 100%;
 	height: 54px;
@@ -134,17 +132,17 @@ ul#menu li a.button:hover {
 
 #title-page{
   width: 100%;
-  padding-top: 200px; /* provides a lot of space above title to view the background image */
+  padding-top: 200px; 
   color: #fff;
   text-align: right;
 }
 #title-page h1 {
-  font-family: 'Amaranth', sans-serif; /* Amaranth is a Google Font - see link in head of index.html */
+  font-family: 'Share Tech Mono', monospace; 
   font-size: 80px; 	
   text-shadow: 3px 3px #000; /* Shadow helps text to stand out from background */
 }
 #title-page h3 {
-  font-size: 1em;
+  font-size: 2em;
   font-style: italic;
   margin: 0 40px;
   padding-bottom: 20px;
@@ -157,7 +155,7 @@ ul#menu li a.button:hover {
   text-align: center;	
 }
 #credits table{      
-  margin: 0 auto;		/* centers the color palette table */
+  margin: 0 auto;		
 }
 #credits p {
   font-size: .8em;
