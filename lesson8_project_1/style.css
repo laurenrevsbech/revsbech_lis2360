@@ -1,0 +1,174 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* --------------------------- HTML TAG STYLES ----------------------------- */
+
+body {
+  margin: 0px; 
+  padding: 0px;
+  color: #333;
+  font-family: 'Share Tech Mono', monospace;
+}
+p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 1.5em;
+}
+h1 {
+  padding: 20px 0;
+}
+
+h2{
+	padding: 20px 0;
+}
+
+h3 {
+  padding: 20px 0;
+  font-weight: bold;
+}
+table {
+	border: solid #1D83FF 1px;
+	border-collapse:collapse;
+}
+td {
+	padding: 6px;
+	border: solid #1D83FF 2px;
+}
+th {
+	font-weight: bold;
+	background-color: #1D83FF;
+	text-align: center;
+	padding: 6px;
+	border: solid #1D83FF 2px;
+}
+a:link {
+	color: #1D83FF;
+}
+a:visited {
+	color: #1D83FF;
+}
+a:hover {
+	color: #3Da5FF;
+	text-decoration: none;
+}
+
+/* -------------------------- PAGE SECTIONS ---------------------------- */
+
+#splash {
+  background: url(images/hacker_use2.jpg) no-repeat center top fixed;
+  background-size: cover;  
+	height: 1000px; 
+	color: #eee;
+	
+}
+#overview {
+	padding: 40px 0 60px 0; 	
+  background-color: #2b4f63;
+	color: #eee;
+}
+
+#video {
+	padding: 40px 0 60px 0;	
+  background: url(images/Hacker_pic.jpg) no-repeat center top fixed;
+	color: #eee;
+}
+
+#table {
+	padding: 40px 0 40px 0;	
+    background-color: #737373;;
+	color: #eee;
+}
+
+#footer{
+  	background-color: #2b4f63;
+  	color: #eee;
+  	padding: 20px 0;
+
+}
+
+/* ---------------- CONTAINER STYLES ----------------- */
+.container {
+  width: 960px; 
+  margin: 0 auto;
+  overflow: hidden;
+}
+.half_container { 
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+
+/* ----------------- NAVIGATION BAR STYLES -------------------*/ 
+
+#navbar{
+	position: fixed; 
+	top: 0;
+	width: 100%;
+	height: 54px;
+	background-color: rgba(255, 255, 255, 0.8); 
+}	
+/* horizontal menu bars are typically created using a styled unordered list. Here's how! */
+ul#menu {
+	list-style: none; /* eliminates bullets */
+	/* adjust padding top to adjust nav bar vertical position */
+	padding-top: 0px;
+} 
+ul#menu li {
+	float: left; /* changes list from vertical to horizontal */
+	padding-bottom: 20px;
+} 
+ul#menu li a.button {
+	font-size: 16px;
+	text-decoration: none;
+	/* this padding defines the size of the buttons */
+	padding: 20px 100px 20px 100px; 
+}
+/* change button color when mouse hovers over */
+ul#menu li a.button:hover {
+	background-color: rgba(42, 188, 238, 0.1);
+}  
+
+/* ---------------- TITLE PAGE STYLES ------------------- */
+
+#title-page{
+  width: 100%;
+  padding-top: 200px; 
+  color: #fff;
+  text-align: right;
+}
+#title-page h1 {
+  font-family: 'Share Tech Mono', monospace; 
+  font-size: 80px; 	
+  text-shadow: 3px 3px #000; /* Shadow helps text to stand out from background */
+}
+#title-page h3 {
+  font-size: 2em;
+  font-style: italic;
+  margin: 0 40px;
+  padding-bottom: 20px;
+  text-shadow: 2px 2px #000;
+}
+
+/* ------------------- FOOTER CREDITS --------------------- */
+
+#credits {
+  text-align: center;	
+}
+#credits table{      
+  margin: 0 auto;		
+}
+#credits p {
+  font-size: .8em;
+  margin: 10px 0;
+}
+
+/* ---------------------- MISC -----------------------------*/
+
+.fltright{
+	float:right;
+	margin: 20px;
+}
+.fltleft{
+	float:left;
+	margin: 20px 20px 20px 0;
+}
